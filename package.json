@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240208.0",
+    "prisma": "^5.11.0",
     "wrangler": "^3.32.0"
   }
 }
