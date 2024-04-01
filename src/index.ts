@@ -3,11 +3,9 @@ import { PrismaClient } from '@prisma/client/edge'
 import { withAccelerate } from '@prisma/extension-accelerate'
 import { env } from 'hono/adapter'
 import root from './routes/root'
-import book from './routes/book'
 
 const app = new Hono()
 
-app.route('/books', book)
 app.route('/api/v1', root)
 
 
