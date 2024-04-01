@@ -3,9 +3,11 @@ import { PrismaClient } from '@prisma/client/edge'
 import { withAccelerate } from '@prisma/extension-accelerate'
 import { env } from 'hono/adapter'
 import root from './routes/root'
+import { cors } from 'hono/cors'
 
 const app = new Hono()
 
+app.use('*', cors())
 app.route('/api/v1', root)
 
 
