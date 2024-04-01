@@ -19,4 +19,14 @@ model User {
   name     String
   email    String
 	password String
+
+  account Account?
+}
+
+model Account{
+  id        Int @id @default(autoincrement())
+  balance   Float
+
+  userId    Int @unique
+  user      User @relation(fields: [userId], references: [id])
 }
