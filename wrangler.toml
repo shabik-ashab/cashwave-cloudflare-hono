@@ -5,7 +5,9 @@ compatibility_date = "2023-12-01"
 # MY_VAR = "my-variable"
 
 [vars]
-DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiYjEwOGU5ZTgtZjk4My00ZTQ1LWFmODQtZTFlYWUyMTAwYTAxIiwidGVuYW50X2lkIjoiZDMxYTA4OTliODhhYjc4YWFmMzY5OWRjNDM1ZGUzZGQxNGRiNzVjY2Y3ZjIyNTcwM2Y3ZDFiYjE1NmYxY2MzNyIsImludGVybmFsX3NlY3JldCI6ImFlY2Y2Nzg5LWZmMDAtNDQ3Yy04ZWNkLWRlNDUxNWMxMWI4NyJ9.SniqfzzkP159xDt4fg1Xp4w-SjEtigIslfe3QkUXfx4"
+DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiYWRhODdlNmEtMzUwMy00YWUwLWJlNWYtODg4NTI2ZjFlNDIxIiwidGVuYW50X2lkIjoiYzM5MzA2YWQ5MzQ4ZGZkZjkwZjYyYzMwNjM1MjQ5NTNlMzc1Mzg3NjhjYmZlMmRiYzBmYmYwZTE0NmY4ZGY1ZSIsImludGVybmFsX3NlY3JldCI6Ijc5YTU3ZDQ2LTY0YjQtNDY2My1iYWVkLWQ2YjJmZjcwYTdmMSJ9.X1bhu7SmU2dLR9O8BGP2hcJqS7t3eA4qmQ4BPbdUmlk"
+JWT_SECRET="jwt-secret"
+
 
 # [[kv_namespaces]]
 # binding = "MY_KV_NAMESPACE"
