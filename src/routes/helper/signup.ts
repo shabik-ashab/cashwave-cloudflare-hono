@@ -12,7 +12,6 @@ const signup = async (c) => {
         const password = body.password;
         const firstName = body.firstName;
         const lastName = body.lastName;
-        console.log(username, password, firstName, lastName)
 
         const user = await prisma.user.create({
             data: {
