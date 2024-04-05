@@ -8,6 +8,7 @@ const authMiddleware = async (c, next) => {
     }
 
     const token = authHeader.split(' ')[1];
+    console.log(token)
     try{
         const { JWT_SECRET } = env<{ JWT_SECRET: string }>(c);
         const decoded = await verify(token, JWT_SECRET)
