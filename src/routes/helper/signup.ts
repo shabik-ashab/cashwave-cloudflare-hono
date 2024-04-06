@@ -47,11 +47,8 @@ const signup = async (c) => {
     } catch (error) {
         console.error("Error occurred during signup:", error);
         return c.json({
-            statusCode: 500,
-            body: {
-                message: "Internal server error"
-            }
-        });
+            message: "Internal server error"
+        }, 500);
     }
 };
 

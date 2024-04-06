@@ -27,12 +27,8 @@ const getBalance = async (c) => {
         });
     } catch (error) {
         console.error("Error occurred while fetching account:", error);
-        return c.json({
-            statusCode: 500,
-            body: {
-                message: "Internal server error"
-            }
-        });
+        return c.json({message: "Internal server error"
+        },500);
     }
 }
 
